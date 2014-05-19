@@ -19,6 +19,19 @@
 		E206E78D1928D6360087AAA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E206E7751928D6360087AAA3 /* UIKit.framework */; };
 		E206E7951928D6360087AAA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E206E7931928D6360087AAA3 /* InfoPlist.strings */; };
 		E206E7971928D6360087AAA3 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E206E7961928D6360087AAA3 /* _____Tests.m */; };
+		E2277C271928D96A008E4A53 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2277C261928D96A008E4A53 /* images.bundle */; };
+		E2277C2A1928DC4E008E4A53 /* DPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C291928DC4E008E4A53 /* DPMainViewController.m */; };
+		E2277C2D1928DCFE008E4A53 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C2C1928DCFE008E4A53 /* LoadingView.m */; };
+		E2277C301928DF84008E4A53 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C2F1928DF84008E4A53 /* TitleView.m */; };
+		E2277C331928E49F008E4A53 /* AirPlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C321928E49F008E4A53 /* AirPlayGameViewController.m */; };
+		E2277C381928E9D3008E4A53 /* ImageResources.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C371928E9D3008E4A53 /* ImageResources.m */; };
+		E2277C3C1928ED2F008E4A53 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C3B1928ED2F008E4A53 /* GameModel.m */; };
+		E2277C3F1928F263008E4A53 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C3E1928F263008E4A53 /* BackgroundView.m */; };
+		E2277C411928F6B8008E4A53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2277C401928F6B8008E4A53 /* QuartzCore.framework */; };
+		E2277C441929C336008E4A53 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C431929C336008E4A53 /* Hero.m */; };
+		E2277C471929C84E008E4A53 /* HeroViiew.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C461929C84E008E4A53 /* HeroViiew.m */; };
+		E2277C4A1929E35C008E4A53 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C491929E35C008E4A53 /* Bullet.m */; };
+		E2277C4D1929EF81008E4A53 /* BulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2277C4C1929EF81008E4A53 /* BulletView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +61,30 @@
 		E206E7921928D6360087AAA3 /* 要来一发吗Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "要来一发吗Tests-Info.plist"; sourceTree = "<group>"; };
 		E206E7941928D6360087AAA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E206E7961928D6360087AAA3 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		E2277C261928D96A008E4A53 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		E2277C281928DC4E008E4A53 /* DPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMainViewController.h; sourceTree = "<group>"; };
+		E2277C291928DC4E008E4A53 /* DPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMainViewController.m; sourceTree = "<group>"; };
+		E2277C2B1928DCFE008E4A53 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		E2277C2C1928DCFE008E4A53 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		E2277C2E1928DF84008E4A53 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		E2277C2F1928DF84008E4A53 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		E2277C311928E49F008E4A53 /* AirPlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayGameViewController.h; sourceTree = "<group>"; };
+		E2277C321928E49F008E4A53 /* AirPlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayGameViewController.m; sourceTree = "<group>"; };
+		E2277C361928E9D3008E4A53 /* ImageResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResources.h; sourceTree = "<group>"; };
+		E2277C371928E9D3008E4A53 /* ImageResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResources.m; sourceTree = "<group>"; };
+		E2277C3A1928ED2F008E4A53 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		E2277C3B1928ED2F008E4A53 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		E2277C3D1928F263008E4A53 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		E2277C3E1928F263008E4A53 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		E2277C401928F6B8008E4A53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E2277C421929C336008E4A53 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		E2277C431929C336008E4A53 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		E2277C451929C84E008E4A53 /* HeroViiew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViiew.h; sourceTree = "<group>"; };
+		E2277C461929C84E008E4A53 /* HeroViiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViiew.m; sourceTree = "<group>"; };
+		E2277C481929E35C008E4A53 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		E2277C491929E35C008E4A53 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		E2277C4B1929EF81008E4A53 /* BulletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletView.h; sourceTree = "<group>"; };
+		E2277C4C1929EF81008E4A53 /* BulletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2277C411928F6B8008E4A53 /* QuartzCore.framework in Frameworks */,
 				E206E7741928D6360087AAA3 /* CoreGraphics.framework in Frameworks */,
 				E206E7761928D6360087AAA3 /* UIKit.framework in Frameworks */,
 				E206E7721928D6360087AAA3 /* Foundation.framework in Frameworks */,
@@ -96,6 +134,7 @@
 		E206E7701928D6360087AAA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E2277C401928F6B8008E4A53 /* QuartzCore.framework */,
 				E206E7711928D6360087AAA3 /* Foundation.framework */,
 				E206E7731928D6360087AAA3 /* CoreGraphics.framework */,
 				E206E7751928D6360087AAA3 /* UIKit.framework */,
@@ -107,6 +146,7 @@
 		E206E7771928D6360087AAA3 /* 要来一发吗 */ = {
 			isa = PBXGroup;
 			children = (
+				E206E7A01928D6B90087AAA3 /* AirPlayGame */,
 				E206E7801928D6360087AAA3 /* DPAppDelegate.h */,
 				E206E7811928D6360087AAA3 /* DPAppDelegate.m */,
 				E206E7831928D6360087AAA3 /* Images.xcassets */,
@@ -142,6 +182,60 @@
 				E206E7931928D6360087AAA3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E206E7A01928D6B90087AAA3 /* AirPlayGame */ = {
+			isa = PBXGroup;
+			children = (
+				E2277C261928D96A008E4A53 /* images.bundle */,
+				E2277C391928E9E6008E4A53 /* Models */,
+				E2277C341928E7C6008E4A53 /* Controller */,
+				E2277C351928E874008E4A53 /* Views */,
+			);
+			path = AirPlayGame;
+			sourceTree = "<group>";
+		};
+		E2277C341928E7C6008E4A53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2277C281928DC4E008E4A53 /* DPMainViewController.h */,
+				E2277C291928DC4E008E4A53 /* DPMainViewController.m */,
+				E2277C311928E49F008E4A53 /* AirPlayGameViewController.h */,
+				E2277C321928E49F008E4A53 /* AirPlayGameViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E2277C351928E874008E4A53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2277C2B1928DCFE008E4A53 /* LoadingView.h */,
+				E2277C2C1928DCFE008E4A53 /* LoadingView.m */,
+				E2277C2E1928DF84008E4A53 /* TitleView.h */,
+				E2277C2F1928DF84008E4A53 /* TitleView.m */,
+				E2277C3D1928F263008E4A53 /* BackgroundView.h */,
+				E2277C3E1928F263008E4A53 /* BackgroundView.m */,
+				E2277C451929C84E008E4A53 /* HeroViiew.h */,
+				E2277C461929C84E008E4A53 /* HeroViiew.m */,
+				E2277C4B1929EF81008E4A53 /* BulletView.h */,
+				E2277C4C1929EF81008E4A53 /* BulletView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E2277C391928E9E6008E4A53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2277C361928E9D3008E4A53 /* ImageResources.h */,
+				E2277C371928E9D3008E4A53 /* ImageResources.m */,
+				E2277C3A1928ED2F008E4A53 /* GameModel.h */,
+				E2277C3B1928ED2F008E4A53 /* GameModel.m */,
+				E2277C421929C336008E4A53 /* Hero.h */,
+				E2277C431929C336008E4A53 /* Hero.m */,
+				E2277C481929E35C008E4A53 /* Bullet.h */,
+				E2277C491929E35C008E4A53 /* Bullet.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E206E77C1928D6360087AAA3 /* InfoPlist.strings in Resources */,
+				E2277C271928D96A008E4A53 /* images.bundle in Resources */,
 				E206E7841928D6360087AAA3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +335,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2277C471929C84E008E4A53 /* HeroViiew.m in Sources */,
+				E2277C4D1929EF81008E4A53 /* BulletView.m in Sources */,
+				E2277C2A1928DC4E008E4A53 /* DPMainViewController.m in Sources */,
+				E2277C3C1928ED2F008E4A53 /* GameModel.m in Sources */,
+				E2277C2D1928DCFE008E4A53 /* LoadingView.m in Sources */,
+				E2277C301928DF84008E4A53 /* TitleView.m in Sources */,
+				E2277C381928E9D3008E4A53 /* ImageResources.m in Sources */,
+				E2277C441929C336008E4A53 /* Hero.m in Sources */,
+				E2277C3F1928F263008E4A53 /* BackgroundView.m in Sources */,
 				E206E7821928D6360087AAA3 /* DPAppDelegate.m in Sources */,
 				E206E77E1928D6360087AAA3 /* main.m in Sources */,
+				E2277C331928E49F008E4A53 /* AirPlayGameViewController.m in Sources */,
+				E2277C4A1929E35C008E4A53 /* Bullet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +546,7 @@
 				E206E79C1928D6360087AAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E206E79D1928D6360087AAA3 /* Build configuration list for PBXNativeTarget "要来一发吗Tests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +555,7 @@
 				E206E79F1928D6360087AAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
