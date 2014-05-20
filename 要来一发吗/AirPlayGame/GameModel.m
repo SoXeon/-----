@@ -24,6 +24,9 @@
     //实例化英雄
     m.hero = [Hero heroWithSize:heroSize gameArea:gameArea];
     
+    //默认得分为0
+    m.score = 0;
+    
     return m;
 }
 
@@ -43,6 +46,12 @@
         self.bgFrame2 = topFrame;
     }
 
+}
+
+#pragma mark 创建敌机
+- (Enemy *)createEnemyWithType:(EnemyType)type size:(CGSize)size
+{
+    return  [Enemy enemyWithType:type size:size gameArea:self.gameArea];
 }
 
 @end
