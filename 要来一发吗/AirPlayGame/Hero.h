@@ -18,6 +18,8 @@
 @property (assign,nonatomic) CGPoint postion;
 //飞机的尺寸
 @property (assign,nonatomic) CGSize size;
+//英雄碰撞检测frame
+@property (assign,nonatomic,readonly) CGRect collisionFrame;
 //炸弹的数量
 @property (assign,nonatomic) NSInteger bombCount;
 //子弹是否增强
