@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Hero.h"
+#import "Enemy.h"
 
 @interface GameModel : NSObject
 
@@ -16,6 +17,9 @@
 
 #pragma mark 游戏区域
 @property (assign,nonatomic) CGRect gameArea;
+
+#pragma mark 游戏得分
+@property (assign,nonatomic) NSInteger score;
 
 #pragma mark 背景图片的位置
 @property (assign,nonatomic) CGRect bgFrame1;
@@ -27,5 +31,8 @@
 
 #pragma mark 英雄灰机的属性及方法
 @property (strong,nonatomic) Hero *hero;
+
+#pragma mark 创建敌机
+- (Enemy *)createEnemyWithType:(EnemyType)type size:(CGSize)size;
 
 @end
