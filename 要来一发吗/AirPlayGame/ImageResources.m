@@ -58,6 +58,20 @@
         //子弹图片
         self.bulletNormalImage = [self loadImageWithBundle:bundle imageName:@"bullet1"];
         self.bulletEnhancedImage = [self loadImageWithBundle:bundle imageName:@"bullet2"];
+        
+        //小飞机
+        self.enemySmallImage = [self loadImageWithBundle:bundle imageName:@"enemy1_fly_1"];
+        self.enemySmallBlowupImages =[self loadImageWithBundle:bundle format:@"enemy1_blowup_%d" count:4];
+        
+        //中飞机
+        self.enemyMiddleImage = [self loadImageWithBundle:bundle imageName:@"enemy3_fly_1"];
+        self.enemyMiddleHitImages = [self loadImageWithBundle:bundle imageName:@"enemy3_hit_1"];
+        self.enemyMiddleBlowupImages = [self loadImageWithBundle:bundle format:@"enemy3_blowup_%d" count:4];
+        
+        //大飞机
+        self.enemyBigImage = [self loadImageWithBundle:bundle format:@"enemy2_fly_%d" count:2];
+        self.enemyBigHitImages = [self loadImageWithBundle:bundle imageName:@"enemy2_hit_1"];
+        self.enemyBigBlowupImages = [self loadImageWithBundle:bundle format:@"enemy2_blowup_%d" count:7];
     }
     return self;
 }
