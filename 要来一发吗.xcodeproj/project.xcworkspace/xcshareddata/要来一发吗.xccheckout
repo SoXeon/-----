@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88299F0F-E22A-4C36-ADD1-C34674FD35DD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>要来一发吗</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3213643B-D54F-4759-A2D4-CB23C882EC94</key>
+		<string>https://github.com/SoXeon/-----.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>要来一发吗.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3213643B-D54F-4759-A2D4-CB23C882EC94</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SoXeon/-----.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3213643B-D54F-4759-A2D4-CB23C882EC94</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3213643B-D54F-4759-A2D4-CB23C882EC94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>要来一发吗</string>
+		</dict>
+	</array>
+</dict>
+</plist>
