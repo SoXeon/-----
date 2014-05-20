@@ -34,6 +34,19 @@
     return h;
 }
 
+#pragma mark  碰撞检测使用的frame
+- (CGRect)collisionFrame
+{
+    CGFloat x = self.postion.x - self.size.width / 4.0;
+    CGFloat y = self.postion.y - self.size.height / 2.0;
+    CGFloat w = self.size.width / 2.0;
+    CGFloat h = self.size.height;
+    
+    return CGRectMake(x, y, w, h);
+    
+}
+
+
 #pragma mark 给子弹添加成员方法
 //指定bulletNoramlSize 和bulletEnhancedSize
 -(void)fire
@@ -48,6 +61,8 @@
     //计算第一颗子弹的y坐标
     CGFloat y = self.postion.y - self.size.height / 2 - bulletSize.height / 2;
     CGFloat x = self.postion.x;
+    
+    
     for (NSInteger i = 0; i < kFireCount; i++) {
         CGPoint p = CGPointMake(x, y - i * bulletSize.height * 2);
         Bullet *b = [Bullet bulletWithPosition:p isEnhanced:self.isEnhanceBullet];
